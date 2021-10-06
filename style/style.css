@@ -1,3 +1,4 @@
+
 header {
     background:rgba(0, 118, 192, 0.781) ;
 }
@@ -10,9 +11,10 @@ main {
 
 
 section {
-    margin-right: 10%;
-    margin-left: 10%
+    margin-right: 5%;
+    margin-left: 5%
 }
+
 
 .titulo {
     text-align: center;
@@ -33,7 +35,7 @@ section {
 
 .subtitulo {
     text-align: center;
-    font-size: 14px;
+    font-size: 19px;
     display: block;
     margin: 2% 10%;
 }
@@ -108,6 +110,7 @@ section {
 
 #covid-19 {
     text-align: center;
+    font-size: 19px;
 }
 
 #covid-19 h3 {
@@ -199,6 +202,7 @@ footer{
 .lineaHotel{
     border-top: 5px solid #0077C0;
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .lineaHotel2{
@@ -218,21 +222,24 @@ footer{
 
 .spaDerecha p {
     text-align: center;
-    font-size: 25px;
+    font-size: 40px;
+    font-family: 'Birthstone', cursive;
 }
 
 aside {
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 2%;
+    margin-left: 2%;
 }
 .tituloTratamiento h3{
     text-align: center;
     margin: 3%;
+    font-size: 45px;
 }
 
 .listadoTratamiento {
     display: flex;
     justify-content: space-between;
+    font-size: 20px;
 }
 
 .listadoIzq {
@@ -263,23 +270,22 @@ aside {
 
 .h2titulo h2{
     text-align: center;
+    font-size: 50px;
+    color: rgb(0, 118, 192);
 }
 
-.titulosHotel {
-    position: relative;
-    display: inline-block;
-    text-align: center;
-}
 .titulosHotel img{
 
     width: 100%;
+    align-items: center;
 }
 
 
 .textobienvenida p{
     text-align: center;
     padding: 2px;
-    font-size: 25px;
+    font-size: 40px;
+    font-family: 'Birthstone', cursive;
 }
 .descripHabitaciones p{
     justify-content: right;
@@ -301,10 +307,13 @@ aside {
 }
 
 .descripcionHotel {
-    font-size: 24px;
+    font-size: 27px;
     background-color: rgb(0, 118, 192);
     color: rgba(255, 255, 255, 0.603);
+    text-align: center;
 }
+
+
 
 .lineaRestaurant {
     border-top: 5px solid #0077C0;
@@ -312,7 +321,34 @@ aside {
     margin-top: 30px;
 }
 .asideRestaurant {
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.sectionRestaurant {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Birthstone', cursive;
+}
+
+.sectionRestaurant h1 {
+    text-align: center;
+    font-size: 90px;
+}
+
+.sectionRestaurant p {
+    font-size: 30px;
+    text-align: center;
+}
+
+.restaurantExplicacion {
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.restaurantExplicacion h2 {
+    text-align: center;
 }
 
 .contactoListado h3 {
