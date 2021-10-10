@@ -186,10 +186,9 @@ footer{
   }
 
 .titulosSpa {
-    display: relative;
+    align-items: center;
 }
 .titulosSpa img{
-    margin-top: 1px;
     width: 100%;
 }
 
@@ -318,6 +317,7 @@ aside {
     margin-bottom: 40px;
     margin-top: 30px;
 }
+
 .asideRestaurant {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -351,4 +351,18 @@ aside {
 
 .contactoListado h3 {
 text-align: left;
+}
+
+.contactoListado {
+margin-top: 70px;
+}
+
+.titulosContacto img{
+    width: 100%;
+    align-items: center;
+}
+.sectionContacto {
+    margin-right: 16%;
+    margin-left: 19%;
+    margin-bottom: 70px;
 }
