@@ -366,3 +366,17 @@ margin-top: 70px;
     margin-left: 19%;
     margin-bottom: 70px;
 }
+
+.gracias {
+    text-align: center;
+    margin-bottom: 21%;
+}
+
+.gracias p{
+    font-size: 35px;
+    margin-top: 25px;
+}
+
+.gracias a {
+    font-size: 50px;
+}
